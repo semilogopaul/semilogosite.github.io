@@ -1,2 +1,2 @@
-# semilogo site.github.io
+# semilogosite.github.io
 semilogo site
