@@ -1,2 +1,2 @@
-# semilogoportfoliosite.github.io
-semilogo portfolio site
+# semilogo site.github.io
+semilogo site
