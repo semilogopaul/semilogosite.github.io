@@ -33,7 +33,7 @@ font-weight:300;
 letter-spacing:.05rem;
 }
 .section-title{
-  font-size: 3.5rem;
+  font-size: 3.6rem;
   font-weight: 300;
   color:black;
   margin-bottom:10px;
@@ -224,7 +224,7 @@ color:orangered;
 #hero h1{
   display:block;
   width:fit-content;
-  font-size:4rem;
+  font-size:3.5rem;
   position:relative;
 color:transparent;
 animation:text_reveal .5s ease forwards;
