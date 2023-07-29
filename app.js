@@ -24,3 +24,11 @@ menu_item.forEach((item) => {
   mobile_menu.classList.toggle('active');
     });
 });
+
+window.addEventListener(`popstate`, handle);
+
+function handle(evt) {
+  if (location.hash) {
+    history.replaceState(null, ``, location.pathname);
+  }
+}
