@@ -439,7 +439,7 @@ color:white;
   color:white;
 }
 #projects .project-info .stack-used{
-  color:lightgrey;
+  color:grey;
 }
 #projects .project-img{
   flex-basis:50%;
