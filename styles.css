@@ -68,8 +68,11 @@ background-color:orangered;
   text-transform:uppercase;
   color:white;
 }
-.brand h1 span{
+.brand h1 .first-letter{
   color:orangered;
+}
+.brand h1 #last-name{
+  display: none;
 }
 
 /*Header Section*/
@@ -519,6 +522,9 @@ padding-bottom: 10px;
 
 /*Media query for tablet*/
 @media only screen and (min-width:768px){
+  .brand h1 #last-name{
+    display: inline;
+  }
   .cta{
     font-size:2.5rem;
     padding:12px 36px;
@@ -621,6 +627,9 @@ object-fit:contain;
 
 /*Media query for desktop*/
 @media only screen and (min-width:1200px){
+  .brand h1 #last-name{
+    display: inline;
+  }
   .brand h1{
     font-size:3rem;
   }
