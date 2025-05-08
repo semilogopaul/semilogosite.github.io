@@ -50,7 +50,7 @@ const projects = [
     title: "Vendor Search App",
     description: "Vendor Search App",
     details:
-      "A voluntarily built web app for Zeta-Web Nigeria Limited built during my internship period,, it extracts vendor data from excel files and presents them on the front-end in a beautiful way for easier data accessibility and efficiency. Earned me a recommendation from the head of technology.",
+      "A voluntarily built web app for Zeta-Web Nigeria Limited built during my internship period, it extracts vendor data from excel files and presents them on the front-end in a beautiful way for easier data accessibility and efficiency. Earned me a recommendation from the head of technology.",
     link: "https://vendor-search.vercel.app/",
     stack: "HTML, CSS, JAVASCRIPT",
     image: "vendor-search.PNG",
@@ -168,7 +168,7 @@ projects.forEach((project) => {
         <h2>${project.description}</h2>
         <p>${project.details} ${
     project.link
-      ? `<a href="${project.link}" style="color: orangered" target="_blank">here</a>`
+      ? `<a href="${project.link}" style="color: orangered" target="_blank">Click here</a>`
       : ""
   } to check it out.</p>
         <p class="stack-used"><em>${project.stack}</em></p>
